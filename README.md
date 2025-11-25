@@ -113,3 +113,48 @@ Crear catálogo + schema
 Crear Volume
 Subir CSV
 Ejecutar notebook
+
+Cómo levantar un clúster en Databricks (desde la UI)
+
+Ingresa a tu workspace
+Ve a tu instancia de Databricks (por ejemplo: https://<tu-workspace>.cloud.databricks.com).
+
+Abre la sección de Clusters
+En el menú izquierdo selecciona:
+Compute → Clusters
+(En algunas versiones aparece solo "Compute").
+
+Crear un nuevo clúster
+Clic en “Create Cluster” o “Create Compute”.
+
+Configura el clúster
+Entre los parámetros más importantes:
+
+Cluster name: Nombre del clúster.
+
+Cluster mode:
+
+Single Node
+
+Standard
+
+High Concurrency (para múltiples usuarios)
+
+Databricks Runtime (DBR): Escoge la versión (ejemplo: 14.3 LTS).
+
+Worker Type y Driver Type: El tipo de instancia (ej. m5.xlarge).
+
+Autoscaling:
+
+Actívalo para que el cluster aumente/disminuya nodos automáticamente.
+
+Min / Max Workers: Número mínimo y máximo de nodos.
+
+Crear el clúster
+Haz clic en Create.
+
+Iniciar el clúster
+
+Si el clúster está en estado Terminated, dale clic a Start.
+
+Espera a que cambie a estado Running.
