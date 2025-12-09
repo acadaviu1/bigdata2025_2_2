@@ -1,3 +1,9 @@
+Ojo video entrega numero 3:
+
+https://drive.google.com/file/d/1b-YK4szYLTOnBkKh75j4SXW7sFlZbXQM/view?usp=sharing
+
+
+
 # bigdata2025_2_2
 Realización de actividades del curso Bigdata 
 
